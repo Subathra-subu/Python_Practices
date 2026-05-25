@@ -1,13 +1,3 @@
-n = input()
-
-if len(n) == 5:
-
-    rev = ""
-
-    for i in n:
-        rev = i + rev
-
-    print(rev)
-
-else:
-    print("Not a valid number")
+num = int(input("Enter the number:"))
+for i in range(num,100,10):
+    print(i,end=" ")
