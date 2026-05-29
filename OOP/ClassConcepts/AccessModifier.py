@@ -1,0 +1,8 @@
+class Student:
+    def __init__(self):
+        self.name = "Suba"
+        self.__age = 21
+    
+obj = Student()
+print(obj.name)
+print(obj.__age)
